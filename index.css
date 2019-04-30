@@ -1,9 +1,33 @@
+h2 {
+  font-family: 'Amatic SC';
+  color: #258616;
+  font-weight: 700;
+  text-shadow: 0 0 2px white;
+
+  font-size: 50px;
+
+  position: absolute;
+  top: 84%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.display-4 {
+  font-family: Pacifico;
+  color: #ff95c8;
+  font-size: 90px;
+  position: absolute;
+  top: 45%;
+  text-shadow: 0px 5px #e62e8b;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 @media only screen and (max-width: 1250px) {
   .display-4 {
-    font-size: 70px !important;
+    font-size: 70px;
   }
   h2 {
-    font-size: 40px !important;
+    font-size: 40px;
     margin-top: -0.22em;
   }
   .order {
@@ -12,27 +36,28 @@
 }
 @media only screen and (max-width: 952px) {
   .display-4 {
-    font-size: 62px !important;
+    font-size: 62px;
   }
   h2 {
-    font-size: 40px !important;
+    font-size: 40px;
   }
 }
 @media only screen and (max-width: 816px) {
   .display-4 {
-    font-size: 55px !important;
+    font-size: 55px;
   }
   h2 {
-    font-size: 39px !important;
+    font-size: 39px;
     margin-top: 0.7em;
   }
 }
 @media only screen and (max-width: 506px) {
   .display-4 {
-    font-size: 45px !important;
+    font-size: 45px;
   }
   h2 {
-    font-size: 35px !important;
+    font-size: 35px;
+    margin-top: -93px;
   }
   .jumbotron {
     height: 620px !important;
@@ -43,7 +68,7 @@
     font-size: 45px !important;
   }
   h2 {
-    font-size: 35px !important;
+    font-size: 35px;
     margin-top: -85px;
   }
 }
@@ -149,16 +174,7 @@
   color: white;
   text-shadow: 0px 5px black;
 }
-.display-4 {
-  font-family: Pacifico;
-  color: #ff95c8;
-  font-size: 90px;
-  position: absolute;
-  top: 45%;
-  text-shadow: 0px 5px #e62e8b;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
 .play {
   display: inline-block;
   margin-top: 2em;
@@ -203,19 +219,7 @@
   width: 100%;
   height: 100%;
 }
-h2 {
-  font-family: 'Amatic SC';
-  color: #258616;
-  font-weight: 700;
-  text-shadow: 0 0 2px white;
 
-  font-size: 50px;
-
-  position: absolute;
-  top: 84%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 .jumbotron-fluid {
   width: 100%;
   border-radius: 0px;
